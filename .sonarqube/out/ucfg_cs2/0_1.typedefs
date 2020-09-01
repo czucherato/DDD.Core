@@ -1,0 +1,6 @@
+ö
+-DDD.Core.Common.DomainObjects.DomainExceptionSystem.ExceptionobjectT
+DomainException()?DDD.Core.Common.DomainObjects.DomainException.DomainException()è
+nDomainException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)úDDD.Core.Common.DomainObjects.DomainException.DomainException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)`
+DomainException(string)EDDD.Core.Common.DomainObjects.DomainException.DomainException(string)Ñ
+)DomainException(string, System.Exception)WDDD.Core.Common.DomainObjects.DomainException.DomainException(string, System.Exception)

@@ -1,0 +1,22 @@
+
+œDDD.Core.Common.DomainObjects.DomainException.DomainException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs (!"0*†
+0û
+ø
+c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.csT (h
+
+%0void"ySystem.Exception.Exception(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)*
+System.Exception*8
+6
+info.System.Runtime.Serialization.SerializationInfo*:
+8
+context-System.Runtime.Serialization.StreamingContext*
+1*
+1"z
+c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.csk (l
+implicit return:6
+info.System.Runtime.Serialization.SerializationInfo:8
+context-System.Runtime.Serialization.StreamingContextB1/
+-DDD.Core.Common.DomainObjects.DomainException

@@ -1,0 +1,5 @@
+“
+)DDD.Core.Common.DomainObjects.ValueObjectobjectJ
+Equals(object)8DDD.Core.Common.DomainObjects.ValueObject.Equals(object)H
+GetHashCode()7DDD.Core.Common.DomainObjects.ValueObject.GetHashCode()H
+ValueObject()7DDD.Core.Common.DomainObjects.ValueObject.ValueObject()

@@ -1,0 +1,19 @@
+
+EDDD.Core.Common.DomainObjects.DomainException.DomainException(string)c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs ("0*Ï
+0Ä
+Á
+c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs/ (>
+
+%0void"#System.Exception.Exception(string?)*
+System.Exception*
+
+messagestring*
+1*
+1"z
+c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.csA (B
+implicit return:
+messagestringB1/
+-DDD.Core.Common.DomainObjects.DomainException

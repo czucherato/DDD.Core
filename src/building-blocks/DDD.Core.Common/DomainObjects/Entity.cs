@@ -25,18 +25,5 @@ namespace DDD.Core.Common.DomainObjects
         {
             return $"{GetType().Name} [Id={Id}]";
         }
-
-        public static bool operator ==(Entity a, Entity b)
-        {
-            if (a is null && b is null) return true;
-            if (a is null || b is null) return false;
-
-            return a.Equals(b);
-        }
-
-        public static bool operator !=(Entity a, Entity b)
-        {
-            return !(a == b);
-        }
     }
 }

@@ -1,0 +1,95 @@
+
+8DDD.Core.Common.DomainObjects.ValueObject.Equals(object)_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (#"0*«
+0π
+∂
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (
+
+%0bool""object.operator ==(object, object)*
+"
+object*
+
+objobject*
+""*
+1
+2*n
+1"i
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (
+""*£
+2ï
+í
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (
+%1System.Type"object.GetType()*
+
+objectö
+ó
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (*
+%2System.Type"object.GetType()*
+
+objobject‡
+›
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (*
+
+%3bool"3System.Type.operator !=(System.Type?, System.Type?)*"
+System.Type*
+
+%1System.Type*
+
+%2System.Type*
+3
+4*n
+3"i
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (
+""*Œ
+
+4Ä
+~
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (.
+%4"__id*
+
+objobject¨
+©
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (.8
+valueObject)DDD.Core.Common.DomainObjects.ValueObject"__id*
+
+%4á
+Ñ
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (*/
+%5)System.Collections.Generic.IEnumerable<T>"ADDD.Core.Common.DomainObjects.ValueObject.GetEqualityComponents()*-+
+)DDD.Core.Common.DomainObjects.ValueObjectî
+ë
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs9 (\/
+%6)System.Collections.Generic.IEnumerable<T>"ADDD.Core.Common.DomainObjects.ValueObject.GetEqualityComponents()*:
+8
+valueObject)DDD.Core.Common.DomainObjects.ValueObjectÑ
+Å
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (]
+
+%7bool"èSystem.Linq.Enumerable.SequenceEqual<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Collections.Generic.IEnumerable<TSource>)*"
+System.Linq.Enumerable*1
+/
+%5)System.Collections.Generic.IEnumerable<T>*1
+/
+%6)System.Collections.Generic.IEnumerable<T>"o
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (^
+
+
+%7bool*{
+5"v
+_
+UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (	
+implicit return:
+objobjectB-+
+)DDD.Core.Common.DomainObjects.ValueObject

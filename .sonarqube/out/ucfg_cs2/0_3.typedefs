@@ -1,0 +1,9 @@
+¢
+$DDD.Core.Common.DomainObjects.EntityobjectE
+Equals(object)3DDD.Core.Common.DomainObjects.Entity.Equals(object)C
+GetHashCode()2DDD.Core.Common.DomainObjects.Entity.GetHashCode()=
+
+ToString()/DDD.Core.Common.DomainObjects.Entity.ToString()9
+Entity()-DDD.Core.Common.DomainObjects.Entity.Entity()5
+Id.get+DDD.Core.Common.DomainObjects.Entity.Id.get5
+Id.set+DDD.Core.Common.DomainObjects.Entity.Id.set

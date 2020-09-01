@@ -1,0 +1,22 @@
+
+WDDD.Core.Common.DomainObjects.DomainException.DomainException(string, System.Exception)c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs ("0*ˆ
+0ý
+ú
+c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.csI (h
+
+%0void"6System.Exception.Exception(string?, System.Exception?)*
+System.Exception*
+
+messagestring*$
+"
+innerExceptionSystem.Exception*
+1*
+1"z
+c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.csk (l
+implicit return:
+messagestring:"
+innerExceptionSystem.ExceptionB1/
+-DDD.Core.Common.DomainObjects.DomainException
