@@ -1,20 +1,0 @@
-
-ÖDDD.Core.Common.Configuration.FluentValidationConfig.AddFluentValidation(Microsoft.Extensions.DependencyInjection.IServiceCollection)j
-`D:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Configuration\FluentValidationConfig.cs (."0*¯
-0Ì
-Í
-j
-`D:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Configuration\FluentValidationConfig.cs
- 
-(2A
-%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"úMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection)*O"M
-KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
-G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
-1*á
-1"Å
-j
-`D:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Configuration\FluentValidationConfig.cs (	
-implicit return:G
-services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB8"6
-4DDD.Core.Common.Configuration.FluentValidationConfig

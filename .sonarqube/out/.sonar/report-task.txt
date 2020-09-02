@@ -1,7 +1,0 @@
-organization=czucherato
-projectKey=czucherato_DDD.Core
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.11496
-dashboardUrl=https://sonarcloud.io/dashboard?id=czucherato_DDD.Core
-ceTaskId=AXRMUKuJTTdcMIGtgETV
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXRMUKuJTTdcMIGtgETV
