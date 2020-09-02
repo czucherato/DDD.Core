@@ -1,34 +1,19 @@
 
-2DDD.Core.Common.DomainObjects.Entity.GetHashCode()Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs ('"0*ë
-0ê
-ç
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (
-%0System.Type"object.GetType()*
-
-object©¶
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (+	
-%1int"System.Type.GetHashCode()*
-
-%0System.Type2GetHashCode()…
-∆
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs5 (7
-%2System.Guid"+DDD.Core.Common.DomainObjects.Entity.Id.get*(&
-$DDD.Core.Common.DomainObjects.Entityö
-ó
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs5 (E	
-%3int"System.Guid.GetHashCode()*
-
-%2System.Guid"d
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (F
-""*v
-1"q
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (	
-implicit returnB(&
-$DDD.Core.Common.DomainObjects.Entity
+]DDD.Core.Common.Handlers.EventHandler.EventHandler(FluentValidation.Results.ValidationResult)[
+QD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Handlers\EventHandler.cs ("0*≥
+0®
+•
+[
+QD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Handlers\EventHandler.cs ($
+
+%0void"SDDD.Core.Common.Handlers.Handler.Handler(FluentValidation.Results.ValidationResult)*$"
+ DDD.Core.Common.Handlers.Handler*?
+=
+validationResult)FluentValidation.Results.ValidationResult*
+1*w
+1"r
+[
+QD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Handlers\EventHandler.cs' ((
+implicit return:=
+validationResult)FluentValidation.Results.ValidationResultB)'
+%DDD.Core.Common.Handlers.EventHandler

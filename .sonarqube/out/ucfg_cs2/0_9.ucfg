@@ -1,71 +1,8 @@
 
-3DDD.Core.Common.DomainObjects.Entity.Equals(object)Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs	 	(#"0*À
-0„
-
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs ()
-%0object"__id*
-
-objobject¨
-¥
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs ()1
-	compareTo$DDD.Core.Common.DomainObjects.Entity"__id*
-
-%0object€
-ý
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (0
-
-%1bool"(object.ReferenceEquals(object?, object?)*
-"
-object*(&
-$DDD.Core.Common.DomainObjects.Entity*3
-1
-	compareTo$DDD.Core.Common.DomainObjects.Entity*
-1
-2*i
-1"d
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs2 (>
-""*
-2*
-3
-4*i
-3"d
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs# (0
-""*Ë
-4É
-Æ
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (
-%2System.Guid"+DDD.Core.Common.DomainObjects.Entity.Id.get*(&
-$DDD.Core.Common.DomainObjects.EntityÔ
-Ñ
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs ()
-%3System.Guid"+DDD.Core.Common.DomainObjects.Entity.Id.get*3
-1
-	compareTo$DDD.Core.Common.DomainObjects.Entity¶
-³
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (*
-
-%4bool"System.Guid.Equals(System.Guid)*
-
-%2System.Guid*
-
-%3System.Guid"j
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (+
-
-
-%4bool*v
-5"q
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (	
-implicit return:
-objobjectB(&
-$DDD.Core.Common.DomainObjects.Entity
+?DDD.Core.Common.DomainObjects.DomainException.DomainException()c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs	 	("0*
+0"z
+c
+YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs	# 	($
+implicit returnB1/
+-DDD.Core.Common.DomainObjects.DomainException

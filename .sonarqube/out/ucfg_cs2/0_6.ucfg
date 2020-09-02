@@ -1,19 +1,16 @@
 
-EDDD.Core.Common.DomainObjects.DomainException.DomainException(string)c
-YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs ("0*Ï
-0Ä
-Á
-c
-YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs/ (>
+)DDD.Core.Common.Messages.Query<T>.Query()T
+JD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Query.cs ("0*Â
+0·
+´
+T
+JD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Query.cs (
 
-%0void"#System.Exception.Exception(string?)*
-System.Exception*
-
-messagestring*
-1*
-1"z
-c
-YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.csA (B
-implicit return:
-messagestringB1/
--DDD.Core.Common.DomainObjects.DomainException
+%0void"*DDD.Core.Common.Messages.Message.Message()*$"
+ DDD.Core.Common.Messages.Message*
+1*p
+1"k
+T
+JD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Query.cs (
+implicit returnB%#
+!DDD.Core.Common.Messages.Query<T>

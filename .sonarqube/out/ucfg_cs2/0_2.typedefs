@@ -1,5 +1,3 @@
-“
-)DDD.Core.Common.DomainObjects.ValueObjectobjectJ
-Equals(object)8DDD.Core.Common.DomainObjects.ValueObject.Equals(object)H
-GetHashCode()7DDD.Core.Common.DomainObjects.ValueObject.GetHashCode()H
-ValueObject()7DDD.Core.Common.DomainObjects.ValueObject.ValueObject()
+}
+DDD.Core.Common.Messages.Event DDD.Core.Common.Messages.Messageobject1
+Event()&DDD.Core.Common.Messages.Event.Event()

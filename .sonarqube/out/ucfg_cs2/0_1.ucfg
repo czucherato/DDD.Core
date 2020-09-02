@@ -1,15 +1,20 @@
 
-+DDD.Core.Common.DomainObjects.Entity.Id.getZ
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs ("0*°
-0·
-´
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (
-%0System.Guid"__id*=*;&
-$DDD.Core.Common.DomainObjects.Entity"
-IdSystem.Guid"q
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (
-
-%0System.GuidB(&
-$DDD.Core.Common.DomainObjects.Entity
+-DDD.Core.Common.Messages.Command<T>.Command()V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Command.cs	 	("0*Ä
+0¹
+¶
+V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Command.cs
+ 
+(
+
+%0void"*DDD.Core.Common.Messages.Message.Message()*$"
+ DDD.Core.Common.Messages.Message*
+1*r
+1"m
+V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Command.cs
+ 
+(
+implicit returnB'%
+#DDD.Core.Common.Messages.Command<T>

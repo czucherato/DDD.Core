@@ -1,26 +1,15 @@
 
-7DDD.Core.Common.DomainObjects.ValueObject.GetHashCode()_
-UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs ('"0*ó
-0‡
-„
-_
-UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs (*/
-%0)System.Collections.Generic.IEnumerable<T>"ADDD.Core.Common.DomainObjects.ValueObject.GetEqualityComponents()*-+
-)DDD.Core.Common.DomainObjects.ValueObjectó
-ð
-_
-UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs !(	
-%1int"¤System.Linq.Enumerable.Aggregate<TSource, TAccumulate>(System.Collections.Generic.IEnumerable<TSource>, TAccumulate, System.Func<TAccumulate, TSource, TAccumulate>)*"
-System.Linq.Enumerable*1
-/
-%0)System.Collections.Generic.IEnumerable<T>*2*
-"""n
-_
-UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs !(
-	
-%1int*{
-1"v
-_
-UD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\ValueObject.cs" "(	
-implicit returnB-+
-)DDD.Core.Common.DomainObjects.ValueObject
++DDD.Core.Common.DomainObjects.Entity.Id.getZ
+PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs ("0*°
+0·
+´
+Z
+PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (
+%0System.Guid"__id*=*;&
+$DDD.Core.Common.DomainObjects.Entity"
+IdSystem.Guid"q
+Z
+PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (
+
+%0System.GuidB(&
+$DDD.Core.Common.DomainObjects.Entity

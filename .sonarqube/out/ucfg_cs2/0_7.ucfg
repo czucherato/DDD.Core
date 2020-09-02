@@ -1,52 +1,20 @@
 
-/DDD.Core.Common.DomainObjects.Entity.ToString()Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs ('"0*ø
-0ê
-ç
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (
-%0System.Type"object.GetType()*
-
-object©
-¶
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs ($
-%1string"%System.Reflection.MemberInfo.Name.get*
-
-%0System.Type…
-∆
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs+ (-
-%2System.Guid"+DDD.Core.Common.DomainObjects.Entity.Id.get*(&
-$DDD.Core.Common.DomainObjects.Entityè
-å
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (0
-%3string"__concat*
-
-%1string*
-""ú
-ô
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (0
-%4string"__concat*
-
-%3string*
-
-%2System.Guidè
-å
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (0
-%5string"__concat*
-
-%4string*
-"""l
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (1
-
-%5string*v
-1"q
-Z
-PD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\Entity.cs (	
-implicit returnB(&
-$DDD.Core.Common.DomainObjects.Entity
+ÖDDD.Core.Common.Configuration.FluentValidationConfig.AddFluentValidation(Microsoft.Extensions.DependencyInjection.IServiceCollection)j
+`D:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Configuration\FluentValidationConfig.cs (."0*¯
+0Ì
+Í
+j
+`D:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Configuration\FluentValidationConfig.cs
+ 
+(2A
+%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"úMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddScoped<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+1*á
+1"Å
+j
+`D:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Configuration\FluentValidationConfig.cs (	
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB8"6
+4DDD.Core.Common.Configuration.FluentValidationConfig

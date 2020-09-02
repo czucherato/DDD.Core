@@ -1,22 +1,49 @@
 
-WDDD.Core.Common.DomainObjects.DomainException.DomainException(string, System.Exception)c
-YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.cs ("0*à
-0˝
-˙
-c
-YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.csI (h
+*DDD.Core.Common.Messages.Message.Message()V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Message.cs ("0*ç
+0†
+ù
+V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Message.cs	 	($
+%0System.DateTime"System.DateTime.Now.get*"
+System.DateTime÷
+”
+V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Message.cs	 	($
 
-%0void"6System.Exception.Exception(string?, System.Exception?)*
-System.Exception*
+%1void".DDD.Core.Common.Messages.Message.TimeStamp.set*$"
+ DDD.Core.Common.Messages.Message*
+
+%0System.DateTimeå
+â
+V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Message.cs
+ 
+(#
+%2System.Type"object.GetType()*
+
+object•
+¢
+V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Message.cs
+ 
+((
+%3string"%System.Reflection.MemberInfo.Name.get*
 
-messagestring*$
-"
-innerExceptionSystem.Exception*
-1*
-1"z
-c
-YD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\DomainObjects\DomainException.csk (l
-implicit return:
-messagestring:"
-innerExceptionSystem.ExceptionB1/
--DDD.Core.Common.DomainObjects.DomainException
+%2System.Typeœ
+Ã
+V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Message.cs
+ 
+((
+
+%4void"0DDD.Core.Common.Messages.Message.MessageType.set*$"
+ DDD.Core.Common.Messages.Message*
+
+%3string*
+1*r
+1"m
+V
+LD:\Projetos\DDD.Core\src\building-blocks\DDD.Core.Common\Messages\Message.cs (	
+implicit returnB$"
+ DDD.Core.Common.Messages.Message

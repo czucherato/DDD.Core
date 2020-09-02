@@ -6,7 +6,7 @@
   <SonarScannerWorkingDirectory>D:\Projetos\DDD.Core</SonarScannerWorkingDirectory>
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>https://sonarcloud.io</SonarQubeHostUrl>
-  <SonarQubeVersion>8.0.0.11367</SonarQubeVersion>
+  <SonarQubeVersion>8.0.0.11496</SonarQubeVersion>
   <SonarProjectKey>czucherato_DDD.Core</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
@@ -123,7 +123,7 @@
     <Property Name="sonar.core.serverBaseURL">https://sonarcloud.io</Property>
     <Property Name="sonar.lf.logoWidthPx">105</Property>
     <Property Name="sonar.core.id">1BD809FA-AWHW8ct9-T_TB3XqouNu</Property>
-    <Property Name="sonar.core.startTime">28/08/2020 09:22:12</Property>
+    <Property Name="sonar.core.startTime">01/09/2020 09:28:07</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">https://sonarcloud.io</Property>

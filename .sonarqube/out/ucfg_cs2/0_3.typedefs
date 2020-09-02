@@ -1,9 +1,3 @@
-¢
-$DDD.Core.Common.DomainObjects.EntityobjectE
-Equals(object)3DDD.Core.Common.DomainObjects.Entity.Equals(object)C
-GetHashCode()2DDD.Core.Common.DomainObjects.Entity.GetHashCode()=
-
-ToString()/DDD.Core.Common.DomainObjects.Entity.ToString()9
-Entity()-DDD.Core.Common.DomainObjects.Entity.Entity()5
-Id.get+DDD.Core.Common.DomainObjects.Entity.Id.get5
-Id.set+DDD.Core.Common.DomainObjects.Entity.Id.set
+ì
+%DDD.Core.Common.Handlers.QueryHandler DDD.Core.Common.Handlers.Handlerobject˜
+7QueryHandler(FluentValidation.Results.ValidationResult)]DDD.Core.Common.Handlers.QueryHandler.QueryHandler(FluentValidation.Results.ValidationResult)
