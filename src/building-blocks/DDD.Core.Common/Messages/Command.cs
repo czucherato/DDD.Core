@@ -8,7 +8,7 @@ namespace DDD.Core.Common.Messages
         protected Command()
             : base() { }
 
-        public ValidationResult ValidationResult { get; protected set; }
+        public ValidationResult ValidationResult { get; protected set; } = new ValidationResult();
 
         public abstract bool IsValid();
     }
