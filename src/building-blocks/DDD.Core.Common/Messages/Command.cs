@@ -1,5 +1,4 @@
-﻿using System;
-using MediatR;
+﻿using MediatR;
 using FluentValidation.Results;
 
 namespace DDD.Core.Common.Messages
@@ -11,9 +10,6 @@ namespace DDD.Core.Common.Messages
 
         public ValidationResult ValidationResult { get; protected set; }
 
-        public virtual bool IsValid()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract bool IsValid();
     }
 }
