@@ -14,6 +14,6 @@ namespace DDD.Core.Common.Messages
 
         public Guid AggregateId { get; protected set; }
 
-        public DateTime TimeStamp { get; protected set; }
+        public DateTime TimeStamp { get; private set; }
     }
 }
