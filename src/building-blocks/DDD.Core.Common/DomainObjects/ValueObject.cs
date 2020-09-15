@@ -13,9 +13,6 @@ namespace DDD.Core.Common.DomainObjects
             if (obj == null)
                 return false;
 
-            if (GetType() != obj.GetType())
-                return false;
-
             var valueObject = (ValueObject)obj;
 
             return GetEqualityComponents().SequenceEqual(valueObject.GetEqualityComponents());

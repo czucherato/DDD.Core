@@ -18,13 +18,13 @@ namespace DDD.Core.Common.Tests.DomainObjects
         }
 
         [Fact]
-        public void Entity_GetHashCode_Is_Higher_Than_Zero()
+        public void Entity_GetHashCode_Is_Not_Equal_To_Zero()
         {
             //Arrange 
             var entityA = new EntityA();
 
             //Act & Assert
-            Assert.True(entityA.GetHashCode() > 0);
+            Assert.True(entityA.GetHashCode() != 0);
         }
 
         [Fact]
@@ -35,6 +35,27 @@ namespace DDD.Core.Common.Tests.DomainObjects
 
             //Act & Assert
             Assert.False(string.IsNullOrEmpty(entityA.ToString()));
+        }
+
+        [Fact]
+        public void Entity_Is_Equals_To()
+        {
+            //Arrange
+            var entityA = new EntityA();
+            var entityAClone = entityA;
+
+            //Act & Assert
+            Assert.True(entityA.Equals(entityAClone));
+        }
+
+        [Fact]
+        public void Entity_IsNot_Equal_When_Compare_Entity_IsNull()
+        {
+            //Arrange
+            var entityA = new EntityA();
+
+            //Act & Assert
+            Assert.False(entityA.Equals(null));
         }
     }
 

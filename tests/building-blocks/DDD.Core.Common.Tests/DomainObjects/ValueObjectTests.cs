@@ -18,6 +18,16 @@ namespace DDD.Core.Common.Tests.DomainObjects
         }
 
         [Fact]
+        public void ValueObject_IsNot_Equals_When_Compare_ValueObject_IsNull()
+        {
+            //Arrange
+            var valueA = new ValueObjectA("Some Value A", 1);
+
+            //Act & Assert
+            Assert.False(valueA.Equals(null));
+        }
+
+        [Fact]
         public void ValueObject_GetHashCode_Is_Not_Equal_To_Zero()
         {
             //Arrange
