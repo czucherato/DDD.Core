@@ -47,15 +47,25 @@ namespace DDD.Core.Common.Tests.DomainObjects
             //Act & Assert
             Assert.True(entityA.Equals(entityAClone));
         }
-
-        [Fact]
-        public void Entity_IsNot_Equal_When_Compare_Entity_IsNull()
+        
+        public void Equals_Returns_False_When_Compare_Entity_Is_Null()
         {
-            //Arrange
+            //Arrange 
             var entityA = new EntityA();
 
             //Act & Assert
             Assert.False(entityA.Equals(null));
+        }
+
+        [Fact]
+        public void Equals_Returns_True_When_Compare_Entity_Has_The_Same_Reference()
+        {
+            //Arrange 
+            var entityA = new EntityA();
+            var entityAClone = entityA;
+
+            //Act & Assert
+            Assert.True(entityA.Equals(entityAClone));
         }
     }
 
