@@ -48,6 +48,7 @@ namespace DDD.Core.Common.Tests.DomainObjects
             Assert.True(entityA.Equals(entityAClone));
         }
         
+        [Fact]
         public void Equals_Returns_False_When_Compare_Entity_Is_Null()
         {
             //Arrange 
