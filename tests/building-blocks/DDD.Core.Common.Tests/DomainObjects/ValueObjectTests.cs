@@ -47,6 +47,19 @@ namespace DDD.Core.Common.Tests.DomainObjects
             //Act & Assert
             Assert.False(valueA.Equals(null));
         }
+
+        [Fact]
+        public void ValueObject_GetHashCode_Suppress_Arithmetic_Overflow()
+        {
+            //Arrange
+            var valueA = new ValueObjectA("Some Value A", int.MaxValue);
+
+            //Act
+            var exception = Record.Exception(() => valueA.GetHashCode());
+
+            //Assert
+            Assert.Null(exception);
+        }
     }
 
     public class ValueObjectA : ValueObject
