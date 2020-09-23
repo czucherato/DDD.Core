@@ -20,17 +20,17 @@ namespace DDD.Core.Common.Specification.Validation
             return validationResult;
         }
 
-        protected void Add(string name, Rule<T> rule)
+        public void Add(string name, Rule<T> rule)
         {
             _validations.Add(name, rule);
         }
 
-        protected void Remove(string name)
+        public void Remove(string name)
         {
             _validations.Remove(name);
         }
 
-        protected Rule<T> GetRule(string name)
+        public Rule<T> GetRule(string name)
         {
             _validations.TryGetValue(name, out var rule);
             return rule;
