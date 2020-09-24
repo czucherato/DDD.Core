@@ -12,4 +12,4 @@ dotnet add package DDD.Core
 
 | Package |  Nuget Version | GitHub release |
 | ------- | -------------- | --------------- |
-| `DDD.Core` | [![NuGet version (SoftCircuits.Silk)](https://img.shields.io/nuget/v/DDD.Core)](https://www.nuget.org/packages/DDD.Core/) | [![GitHub](https://img.shields.io/github/v/release/czucherato/DDD.Core)](https://github.com/czucherato/DDD.Core) |
+| `DDD.Core` | [![NuGet version (SoftCircuits.Silk)](https://img.shields.io/nuget/v/DDD.Core)](https://www.nuget.org/packages/DDD.Core/) | [![GitHub](https://img.shields.io/github/v/release/czucherato/DDD.Core)](https://github.com/czucherato/DDD.Core/releases) |
