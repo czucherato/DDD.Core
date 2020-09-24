@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DDD.Core.Common</name>
+    </assembly>
+    <members>
+        <member name="T:DDD.Core.Common.Configuration.FluentValidationConfig">
+            <summary>
+            Class with extension method for inject ValidationResult in ServiceCollection
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Configuration.FluentValidationConfig.AddFluentValidation(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method injects ValidationResult in ServiceCollection
+            </summary>
+            <param name="services">ServiceCollection from DependencyInjection</param>
+        </member>
+        <member name="T:DDD.Core.Common.Configuration.MediatorConfig">
+            <summary>
+            Class with extension method for inject MediatR in ServiceCollection
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Configuration.MediatorConfig.AddMediator``1(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method injects MediatR in ServiceCollection
+            </summary>
+            <typeparam name="T">Generic type</typeparam>
+            <param name="services">ServiceCollection from DependencyInjection</param>
+        </member>
+        <member name="T:DDD.Core.Common.Data.IRepository`1">
+            <summary>
+            A generic implementation of repository pattern
+            </summary>
+            <typeparam name="T">Generic type</typeparam>
+        </member>
+        <member name="T:DDD.Core.Common.Data.IUnitOfWork">
+            <summary>
+            Interface for Unit of Work
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Data.IUnitOfWork.BeginTransaction">
+            <summary>
+            Starts a transaction state
+            </summary>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Data.IUnitOfWork.Commit">
+            <summary>
+            Successful completion of a transaction
+            </summary>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Data.IUnitOfWork.Rollback">
+            <summary>
+            Unsuccessful completion of a transaction
+            </summary>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="T:DDD.Core.Common.DomainObjects.DomainException">
+            <summary>
+            Class for domain exception implementation
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.DomainException.#ctor">
+            <summary>
+            DomainException constructor
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.DomainException.#ctor(System.String)">
+            <summary>
+            DomainException constructor
+            </summary>
+            <param name="message">Error message</param>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.DomainException.#ctor(System.String,System.Exception)">
+            <summary>
+            DomainException constructor
+            </summary>
+            <param name="message">Error message</param>
+            <param name="innerException">Inner exception</param>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.DomainException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            DomainException constructor
+            </summary>
+            <param name="info">Data store for serialzation</param>
+            <param name="context">Source and destination of a given serialized stream</param>
+        </member>
+        <member name="T:DDD.Core.Common.DomainObjects.Entity">
+            <summary>
+            A generic implementation of domain entity
+            </summary>
+        </member>
+        <member name="P:DDD.Core.Common.DomainObjects.Entity.Id">
+            <summary>
+            Unique identifier for domain entity
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.Entity.Equals(System.Object)">
+            <summary>
+            Overriden method Equals
+            </summary>
+            <param name="obj">Receive an objet to compare</param>
+            <returns>Return a boolean that defines if the equality is true or false</returns>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.Entity.GetHashCode">
+            <summary>
+            Overriden method GetHashCode
+            </summary>
+            <returns>Returns an integer that is a hash code generation of the class</returns>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.Entity.ToString">
+            <summary>
+            Overriden method ToString
+            </summary>
+            <returns>Returns a formatted string</returns>
+        </member>
+        <member name="T:DDD.Core.Common.DomainObjects.IAggregateRoot">
+            <summary>
+            A generic implementation of domain aggregate root
+            </summary>
+        </member>
+        <member name="T:DDD.Core.Common.DomainObjects.ValueObject">
+            <summary>
+            A generic implementation of domain value object
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.ValueObject.GetEqualityComponents">
+            <summary>
+            A generic implementation of equality comparision
+            </summary>
+            <returns>Returns a collection with the compered elements</returns>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.ValueObject.Equals(System.Object)">
+            <summary>
+            Overriden method Equals
+            </summary>
+            <param name="obj">Receive an objet to compare</param>
+            <returns>Return a boolean that defines if the equality is true or false</returns>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.ValueObject.GetHashCode">
+            <summary>
+            Overriden method GetHashCode
+            </summary>
+            <returns>Returns an integer that is a hash code generation of the class</returns>
+        </member>
+        <member name="T:DDD.Core.Common.Handlers.CommandHandler">
+            <summary>
+            A genetic implementation of Command Handler
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Handlers.CommandHandler.#ctor(FluentValidation.Results.ValidationResult)">
+            <summary>
+            Command Handler constructor
+            </summary>
+            <param name="validationResult">Receives a ValidationResult object</param>
+        </member>
+        <member name="M:DDD.Core.Common.Handlers.CommandHandler.Validate``2(``0)">
+            <summary>
+            Validates the class based on your business rules
+            </summary>
+            <typeparam name="T">Command reference implementation</typeparam>
+            <typeparam name="U">Command result</typeparam>
+            <param name="command">Command implementation</param>
+            <returns>Returns an boolean that defines if validation succedes or not</returns>
+        </member>
+        <member name="T:DDD.Core.Common.Handlers.EventHandler">
+            <summary>
+            A genetic implementation of Event Handler
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Handlers.EventHandler.#ctor(FluentValidation.Results.ValidationResult)">
+            <summary>
+            Event Handler constructor
+            </summary>
+            <param name="validationResult">Receives a ValidationResult object</param>
+        </member>
+        <member name="T:DDD.Core.Common.Handlers.Handler">
+            <summary>
+            A generic implementation of Handler
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Handlers.Handler.#ctor(FluentValidation.Results.ValidationResult)">
+            <summary>
+            Handler constructor
+            </summary>
+            <param name="validationResult">Receives a ValidationResult object</param>
+        </member>
+        <member name="F:DDD.Core.Common.Handlers.Handler._validationResult">
+            <summary>
+            ValidationResult read only property
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Handlers.Handler.AddError(System.String)">
+            <summary>
+            Method that adds an error to ValidationResult collection
+            </summary>
+            <param name="errorMessage">Text of the error message</param>
+        </member>
+        <member name="M:DDD.Core.Common.Handlers.Handler.ClearErrors">
+            <summary>
+            Method that clerar all errors from ValidationResult collection
+            </summary>
+        </member>
+        <member name="T:DDD.Core.Common.Handlers.QueryHandler">
+            <summary>
+            A generic implementation of Query Handler
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Handlers.QueryHandler.#ctor(FluentValidation.Results.ValidationResult)">
+            <summary>
+            Query Handler constructor
+            </summary>
+            <param name="validationResult">Receives a ValidationResult object</param>
+        </member>
+        <member name="T:DDD.Core.Common.Mediator.IMediatorHandler">
+            <summary>
+            A generic implementation of MediatR
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Mediator.IMediatorHandler.Publish``1(``0)">
+            <summary>
+            A generic implementation of CQRS event publish
+            </summary>
+            <typeparam name="T">Event reference implementation</typeparam>
+            <param name="event">Event implementation</param>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Mediator.IMediatorHandler.Query``2(``0)">
+            <summary>
+             A generic implementation of CQRS query
+            </summary>
+            <typeparam name="T">Query reference implementation</typeparam>
+            <typeparam name="U">Query result</typeparam>
+            <param name="params">Query implementation</param>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Mediator.IMediatorHandler.Send``2(``0)">
+            <summary>
+            A generic implementation of CQRS command send
+            </summary>
+            <typeparam name="T">Command reference implementation</typeparam>
+            <typeparam name="U">Command result</typeparam>
+            <param name="command">Command implementation</param>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="T:DDD.Core.Common.Mediator.MediatorHandler">
+            <summary>
+            A Mediator Handler implementation
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Mediator.MediatorHandler.#ctor(MediatR.IMediator)">
+            <summary>
+            Mediator Handler constructor
+            </summary>
+            <param name="mediator">MediatR interface</param>
+        </member>
+        <member name="M:DDD.Core.Common.Mediator.MediatorHandler.Publish``1(``0)">
+            <summary>
+            Implementation of CQRS event publish
+            </summary>
+            <typeparam name="T">Event reference implementation</typeparam>
+            <param name="event">Event implementation</param>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Mediator.MediatorHandler.Query``2(``0)">
+            <summary>
+             Implementation of CQRS query
+            </summary>
+            <typeparam name="T">Query reference implementation</typeparam>
+            <typeparam name="U">Query result</typeparam>
+            <param name="params">Query implementation</param>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Mediator.MediatorHandler.Send``2(``0)">
+            <summary>
+            Implementation of CQRS command send
+            </summary>
+            <typeparam name="T">Command reference implementation</typeparam>
+            <typeparam name="U">Command result</typeparam>
+            <param name="command">Command implementation</param>
+            <returns>Task for async flow</returns>
+        </member>
+        <member name="T:DDD.Core.Common.Messages.Command`1">
+            <summary>
+            A generic CQRS command implementation
+            </summary>
+            <typeparam name="T">Command result</typeparam>
+        </member>
+        <member name="M:DDD.Core.Common.Messages.Command`1.#ctor">
+            <summary>
+            Command constructor
+            </summary>
+        </member>
+        <member name="P:DDD.Core.Common.Messages.Command`1.ValidationResult">
+            <summary>
+            ValidationResult property
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Messages.Command`1.IsValid">
+            <summary>
+            A generic implementation of class validation
+            </summary>
+            <returns>Returns a boolean that defines if class is valid or not</returns>
+        </member>
+        <member name="T:DDD.Core.Common.Messages.Event">
+            <summary>
+            A CQRS event implementation
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Messages.Event.#ctor">
+            <summary>
+            Event constructor
+            </summary>
+        </member>
+        <member name="T:DDD.Core.Common.Messages.Message">
+            <summary>
+            A generic CQRS message implementation
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Messages.Message.#ctor">
+            <summary>
+            Message constructor
+            </summary>
+        </member>
+        <member name="P:DDD.Core.Common.Messages.Message.MessageType">
+            <summary>
+            Type of the message
+            </summary>
+        </member>
+        <member name="P:DDD.Core.Common.Messages.Message.AggregateId">
+            <summary>
+            Domain aggregate root reference
+            </summary>
+        </member>
+        <member name="P:DDD.Core.Common.Messages.Message.TimeStamp">
+            <summary>
+            Date and time the message was created
+            </summary>
+        </member>
+        <member name="T:DDD.Core.Common.Messages.Query`1">
+            <summary>
+            A generic CQRS query implementation
+            </summary>
+            <typeparam name="T">Query result</typeparam>
+        </member>
+        <member name="M:DDD.Core.Common.Messages.Query`1.#ctor">
+            <summary>
+            Query constructor
+            </summary>
+        </member>
+        <member name="T:DDD.Core.Common.Specification.GenericSpecification`1">
+            <summary>
+            A generic specification implementation
+            </summary>
+            <typeparam name="T">Class reference implementation</typeparam>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.GenericSpecification`1.#ctor(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Generic Specification constructor
+            </summary>
+            <param name="expression">Expression tree</param>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.GenericSpecification`1.IsSatisfiedBy(`0)">
+            <summary>
+            Method that satisfy a specification condition
+            </summary>
+            <param name="entity">Class object</param>
+            <returns>Returns a boolean that defines if the condition was satisfied or not</returns>
+        </member>
+        <member name="T:DDD.Core.Common.Specification.Specification`1">
+            <summary>
+            A generic specification implementation
+            </summary>
+            <typeparam name="T">Class reference implementation</typeparam>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Specification`1.IsSatisfiedBy(`0)">
+            <summary>
+            Method that satisfy a specification condition
+            </summary>
+            <param name="entity">Class object</param>
+            <returns>Returns a boolean that defines if the condition was satisfied or not</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Specification`1.ToExpression">
+            <summary>
+            A generic expression tree implementation
+            </summary>
+            <returns>Returns a expression tree</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Specification`1.And(DDD.Core.Common.Specification.Specification{`0})">
+            <summary>
+            Aggregates a AndSpecification
+            </summary>
+            <param name="specification">Specification implementation</param>
+            <returns>Returns a AndSpecification objetc</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Specification`1.Or(DDD.Core.Common.Specification.Specification{`0})">
+            <summary>
+            Aggregates a OrSpecification
+            </summary>
+            <param name="specification">Specification implementation</param>
+            <returns>Returns a OrSpecification objetc</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Specification`1.Not">
+            <summary>
+            Aggregates a NotSpecification
+            </summary>
+            <returns>Returns a NotSpecification objetc</returns>
+        </member>
+        <member name="T:DDD.Core.Common.Specification.Validation.Rule`1">
+            <summary>
+            Class that holds a class specification rule
+            </summary>
+            <typeparam name="T">Class reference implementation</typeparam>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Validation.Rule`1.#ctor(DDD.Core.Common.Specification.Specification{`0},System.String)">
+            <summary>
+            Rule constructor
+            </summary>
+            <param name="spec">Class specification</param>
+            <param name="errorMessage">Error message text</param>
+        </member>
+        <member name="P:DDD.Core.Common.Specification.Validation.Rule`1.ErrorMessage">
+            <summary>
+            Error message text
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Validation.Rule`1.Validate(`0)">
+            <summary>
+            Validates a class based in your specification
+            </summary>
+            <param name="obj">Class object</param>
+            <returns>Returns a boolean that defines if class is valid or not</returns>
+        </member>
+        <member name="T:DDD.Core.Common.Specification.Validation.SpecValidator`1">
+            <summary>
+            Class that validates another class based in your specifications
+            </summary>
+            <typeparam name="T">Class reference implementation</typeparam>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Validation.SpecValidator`1.Validate(`0)">
+            <summary>
+            Validates a class based in your specifications
+            </summary>
+            <param name="obj">Class object</param>
+            <returns>Returns a ValidationResult with the specification errors</returns>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Validation.SpecValidator`1.Add(System.String,DDD.Core.Common.Specification.Validation.Rule{`0})">
+            <summary>
+            Adds a specification rule
+            </summary>
+            <param name="name">Rune name</param>
+            <param name="rule">Rule object</param>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Validation.SpecValidator`1.Remove(System.String)">
+            <summary>
+            Removes a specification rule
+            </summary>
+            <param name="name">Rule name</param>
+        </member>
+        <member name="M:DDD.Core.Common.Specification.Validation.SpecValidator`1.GetRule(System.String)">
+            <summary>
+            Gets a specification rule
+            </summary>
+            <param name="name">Rule name</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
