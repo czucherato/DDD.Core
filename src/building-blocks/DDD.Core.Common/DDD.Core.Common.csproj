@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	  <PackageId>DDD.Core</PackageId>
-	  <Version>1.0.0</Version>
+	  <Version>1.1.0</Version>
 	  <Authors>Carlos Alberto Zucherato</Authors>
-	  <PackageDescription>This package is the launch release for DDD.Core</PackageDescription>
+	  <PackageDescription>Adding comments to package</PackageDescription>
 	  <RepositoryUrl>https://github.com/czucherato/DDD.Core</RepositoryUrl>
 	  <Product>DDD.Core</Product>
-	  <Description>This package is the launch release for DDD.Core</Description>
+	  <Description>Adding comments to package</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
+    <DocumentationFile>C:\Projetos\Outros\DDD.Core\src\building-blocks\DDD.Core.Common\DDD.Core.Common.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
