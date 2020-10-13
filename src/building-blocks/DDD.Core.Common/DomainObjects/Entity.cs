@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Linq;
+using DDD.Core.Common.Messages;
+using System.Collections.Generic;
 
 namespace DDD.Core.Common.DomainObjects
 {
@@ -8,9 +11,34 @@ namespace DDD.Core.Common.DomainObjects
     public abstract class Entity
     {
         /// <summary>
+        /// Entity constructor
+        /// </summary>
+        protected Entity()
+        {
+            _events = new List<Event>();
+        }
+
+        /// <summary>
         /// Unique identifier for domain entity
         /// </summary>
-        public Guid Id { get; protected set; }
+        public virtual Guid Id { get; protected set; }
+
+        private readonly IList<Event> _events;
+        /// <summary>
+        /// List of domain events
+        /// </summary>
+        public virtual IReadOnlyCollection<Event> Events => _events.ToList();
+
+        /// <summary>
+        /// Adding event to entity event list
+        /// </summary>
+        /// <param name="event">Domain event</param>
+        public virtual void AddEvent(Event @event) => _events.Add(@event);
+
+        /// <summary>
+        /// Cleaning entity event list
+        /// </summary>
+        public virtual void ClearEvents() => _events.Clear();
 
         /// <summary>
         /// Overriden method Equals
@@ -31,18 +59,12 @@ namespace DDD.Core.Common.DomainObjects
         /// Overriden method GetHashCode
         /// </summary>
         /// <returns>Returns an integer that is a hash code generation of the class</returns>
-        public override int GetHashCode()
-        {
-            return (GetType().GetHashCode() * 907) + Id.GetHashCode();
-        }
+        public override int GetHashCode() => (GetType().GetHashCode() * 907) + Id.GetHashCode();
 
         /// <summary>
         /// Overriden method ToString
         /// </summary>
         /// <returns>Returns a formatted string</returns>
-        public override string ToString()
-        {
-            return $"{GetType().Name} [Id={Id}]";
-        }
+        public override string ToString() => $"{GetType().Name} [Id={Id}]";
     }
 }

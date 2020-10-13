@@ -91,9 +91,30 @@
             A generic implementation of domain entity
             </summary>
         </member>
+        <member name="M:DDD.Core.Common.DomainObjects.Entity.#ctor">
+            <summary>
+            Entity constructor
+            </summary>
+        </member>
         <member name="P:DDD.Core.Common.DomainObjects.Entity.Id">
             <summary>
             Unique identifier for domain entity
+            </summary>
+        </member>
+        <member name="P:DDD.Core.Common.DomainObjects.Entity.Events">
+            <summary>
+            List of domain events
+            </summary>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.Entity.AddEvent(DDD.Core.Common.Messages.Event)">
+            <summary>
+            Adding event to entity event list
+            </summary>
+            <param name="event">Domain event</param>
+        </member>
+        <member name="M:DDD.Core.Common.DomainObjects.Entity.ClearEvents">
+            <summary>
+            Cleaning entity event list
             </summary>
         </member>
         <member name="M:DDD.Core.Common.DomainObjects.Entity.Equals(System.Object)">
